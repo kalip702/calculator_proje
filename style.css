@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+}
+
+.heading {
+  position: relative;
+  right: 13rem;
+  gap: 2rem;
+  display: grid;
+  color: orange;
+  bottom: 10rem;
+  height: 30vh;
+  text-align: center;
+}
+
+.mail-link {
+  text-decoration: none;
+}
+
+.mail-btn {
+  width: 110px;
+  height: 45px;
+  border-radius: 15%;
+  position: absolute;
+top: 100%;
+
+  bottom: 0;
+  left: 27.5%;
+  background: #d4fdff;
+  border: 1.5px solid #2c00ff;
+}
+
+.calculator {
+  border: 2.5px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #010101;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: #2e2d2d;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ffff;
+}
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: whitesmoke;
+  color: #0a0a0a;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.equalBtn {
+  background-color: orange;
+}
+
+.operator {
+  background-color: green;
+}
